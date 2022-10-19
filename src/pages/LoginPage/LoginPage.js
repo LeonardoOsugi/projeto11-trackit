@@ -5,7 +5,7 @@ export default function LoginPage(){
     return(
         <ContainerLogin>
           <NavbarLogo/>
-          <button>Entrarr</button>
+          <button>Entrar</button>
           <p>Não tem uma conta? Cadastre-se!</p>
         </ContainerLogin>
     )
