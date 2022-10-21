@@ -1,7 +1,6 @@
 import NavbarLogo from "../../components/NavbarLogoInputs/NavbarLogo";
 import NavbarInputs from "../../components/NavbarLogoInputs/NavbarInputs";
 import styled from "styled-components";
-import { useState } from "react";
 import { useAuth } from "../../providers/auth";
 import { useNavigate } from "react-router-dom";
 
@@ -11,9 +10,7 @@ import { BASE_URL } from "../../constants/urls";
 import axios from "axios";
 
 export default function CadastroPage(){
-    const {emails, senha} = useAuth();
-    const [name, setName] = useState("");
-    const [foto, setFoto] = useState("");
+    const {emails, senha, name, setName, foto, setFoto} = useAuth();
 
     const navegate = useNavigate();
 
