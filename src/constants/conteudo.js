@@ -4,4 +4,7 @@ export const CONTEUDO = styled.div`
         margin: 20px;
         display: flex;
         flex-wrap: wrap;
+        .semHabito{
+            margin-top: 50px;
+        }
 `;

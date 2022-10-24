@@ -25,7 +25,7 @@ const MenuBottom = styled.div`
       bottom: 0;
       width: 100%;
       height: 70px;
-      background-color: #ffffff;
+      background-color: #ffffff;;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -46,9 +46,9 @@ const MenuBottom = styled.div`
       }
 `;
 
-const ContainnerHoje = styled.div`
-      margin-bottom: 50px;
-      width: 91px;
-      height: 91px;
-      border-radius: 100%;
-`;
+// const ContainnerHoje = styled.div`
+//       margin-bottom: 50px;
+//       width: 91px;
+//       height: 91px;
+//       border-radius: 100%;
+// `;
