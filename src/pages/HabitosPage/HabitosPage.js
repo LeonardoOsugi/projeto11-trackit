@@ -74,7 +74,7 @@ export default function HabitosPage(){
             <Topo/>
             <Tudo>
                 <ADDHABITO>
-                    <p>Meus hábitos</p>
+                    <h1>Meus hábitos</h1>
                     <button onClick={() => setAtiva("block")}>+</button>
                 </ADDHABITO>
                 <CONTEUDO>

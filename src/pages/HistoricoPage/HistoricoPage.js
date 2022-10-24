@@ -11,7 +11,7 @@ export default function HistoricoPage(){
             <Topo/>
             <Tudo>
                 <ADDHABITO>
-                    <p>Hítorico</p>
+                    <h1>Hítorico</h1>
                 </ADDHABITO>
                 <CONTEUDO>
                     <BreveEmbreveGreve>

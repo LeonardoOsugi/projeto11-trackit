@@ -35,7 +35,7 @@ export default function ProcuraHabito({ postid, name, day}){
     return(
         <AcheiHabito>
             <End bkend={apareca === "block" && "none"}>
-                <img onClick={() => escolhaDelete()} src={lixo}/>
+                <img onClick={() => escolhaDelete()} src={lixo} alt="lixo"/>
             </End>
             <ButtonEnd bkbtnend={apareca}>
                 <p>Realmente deseja deletar esse Habito?</p>

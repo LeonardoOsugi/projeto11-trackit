@@ -1,19 +1,17 @@
 import styled from "styled-components";
 import React from 'react';
-import { useAuth } from "../../providers/auth";
 import trackit from "../../assets/images/TrackItLogo.png";
 import { Link } from "react-router-dom";
 
 export default function Topo(){
-    const image = JSON.parse(localStorage.getItem('img'))
-    const {userInfo} = useAuth();
+    const image = JSON.parse(localStorage.getItem('img'));
     return(
         <>
             <Topos>
                 <Link to="/">
                 <img src={trackit} alt="logo"/>
                 </Link>
-                <img className="user" src={image}  />
+                <img className="user" src={image}  alt="img escolhida pelo user"/>
             </Topos>
         </>
     )

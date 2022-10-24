@@ -9,7 +9,7 @@ export const ADDHABITO = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    p{
+    h1{
         margin-top: 20px;
         font-family: 'Lexend Deca';
         font-size: 22.98px;
@@ -24,5 +24,9 @@ export const ADDHABITO = styled.div`
         background-color: #52B6FF;
         color: #ffffff;
         border-radius: 5px;
+    }
+    p{
+        font-family: 'Lexend Deca';
+        font-size: 17.98px;
     }
 `;
